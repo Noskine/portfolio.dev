@@ -1,0 +1,22 @@
+    .profile-github
+    {
+        width: 100%;
+        display: flex;
+        padding-inline: 5vw;
+        gap: 2rem;
+        margin-bottom: 5vw;
+    }
+
+    .imagem-de-perfil
+    {
+        border-radius: 20px;
+    }
+
+    .discription{
+        width: 35%;
+    }
+
+    .discprition  h2
+    {
+        margin-bottom: 1rem;
+    }

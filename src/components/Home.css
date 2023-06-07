@@ -1,0 +1,109 @@
+    .home
+    {
+        position: relative;
+        height: 100vh;
+    }
+    .home::after
+    {   
+        position: absolute;
+        content: '';
+        width: 500px;
+        height: 500px;
+        background-color: #603cd8;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        border-radius: 50%;
+        opacity: 0.8;
+        filter: blur(300px);
+    }
+    .logo
+    {
+        width: 50px;
+        background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;  
+    }
+    
+/* Header */
+
+    header
+    {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logotypo{
+        display: flex;
+        gap: 1rem;
+    }
+    .text
+    {
+        margin-top: 18px;
+        font-size: 2rem;
+        font-weight: 700;
+        user-select: none;
+        color: #fff;
+    }
+
+    header nav ul 
+    {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-weight: 600;
+    }
+
+    header nav ul li a
+    {
+        color: var(--textColor);
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+    header nav ul li a:hover
+    {
+        background: linear-gradient(99.05deg, #8156FF 0.07%, #6D08AA 106.32%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+/* Main */
+
+    main
+    {
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    main h1
+    {
+        width: 70%;
+        font-size: 4.8rem;
+        font-weight: 500;
+        user-select: none;
+    }
+    
+    main h1 span
+    {
+        font-weight: 700;
+        background: linear-gradient(99.05deg, #8156FF 0.07%, #6D08AA 106.32%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .icon-seta
+    {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }  
